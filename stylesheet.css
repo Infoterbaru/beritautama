@@ -1,0 +1,184 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color: white;
+  background-size: cover;
+  color: #B8860B;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.9;
+  font-size: 78px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.instagram {
+  background-color: #DC143C;
+  margin-right: 10px;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+  margin-right: 10px;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 2;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgb(0, 0, 139);
+  /* Ubah position ke fixed, dan top ke 0 */
+  position: fixed;
+  top: 0;
+  /* Ubah z-index ke 10 */
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: #8B0000;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 800px;
+  padding-bottom: 80px;
+  background-image: url(https://ae01.alicdn.com/kf/HTB1QCs7IFXXXXXeXFXXq6xXFXXXj/7X5ft-Papan-Kayu-Wallpaper-Anak-Bayi-Fotografi-Latar-Belakang-Vinyl-Latar-Belakang-untuk-Foto-Studio-Galeri.jpg);
+  text-align: center;
+}
+
+.lesson-wrapper {
+  color: white;
+  font-size: 17px;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 5px;
+  color: #C71585
+}
+
+.heading h2 {
+  font-weight: bold;
+  background-color:white;
+}
+
+.lesson {
+  float: right;
+  width: 20%;
+}
+
+.lesson-icon {
+  position: relative;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+
+.heading h1 {
+  font-weight: bold;
+  padding: 12px 24px;
+  background-color: #55acee;
+  margin-right: 10px;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #8B0000;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #B8860B;
+  font-size: 17px;
+}
+
+footer {
+  padding-top: 30px;
+}
