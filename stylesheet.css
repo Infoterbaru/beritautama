@@ -107,7 +107,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 100px;
+  height: 1000px;
   padding-bottom: 1px;
   background-color: #000000;
   background-size: cover;
@@ -187,15 +187,13 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .lesson-wrapper {   background-color: #000000;
-  background-size: cover;
+  .lesson-wrapper { background-size: cover;
     width: 50%;
   }
 }
 
 @media (max-width: 670px) {
-  .lesson-wrapper {   background-color: #000000;
-  background-size: cover;
+  .lesson-wrapper { background-size: cover;
     width: 100%;
   }
 }
