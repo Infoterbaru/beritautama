@@ -187,13 +187,13 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .item {
+  .lesson-wrapper {
     width: 50%;
   }
 }
 
 @media (max-width: 670px) {
-  .item {
+  .lesson-wrapper {
     width: 100%;
   }
 }
