@@ -110,7 +110,7 @@ header {
   height: 1000px;
   padding-bottom: 1px;
   background-color: #000000;
-  background-size: cover;
+  background-size: cover 25%;
   text-align: center;
 }
 
@@ -187,13 +187,11 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .lesson-wrapper { background-size: cover;
-    width: 50%;
+  .lesson-wrapper { background-size: cover 50%;
   }
 }
 
 @media (max-width: 670px) {
-  .lesson-wrapper { background-size: cover;
-    width: 100%;
+  .lesson-wrapper { background-size: cover 100%;
   }
 }
