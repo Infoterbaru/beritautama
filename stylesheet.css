@@ -83,10 +83,7 @@ header {
   z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
-}
+
 
 .header-left {
   float: left;
@@ -110,15 +107,20 @@ header {
 }
 
 .lesson-wrapper {
-  height: 800px;
+  height: 1000px;
   padding-bottom: 80px;
-  background-image: #000000;
+  background-color: #000000;
   text-align: center;
 }
 
-.lesson-wrapper {
+.lesson-wrapper p {
   color: white;
-  font-size: 17px;
+  font-size: 18px;
+  color: #F0FFF0;
+  background-color:#4B0082;
+  padding: 20px 15px;
+  display: inline-block;
+  border-radius: 3px;
 }
 
 .heading {
