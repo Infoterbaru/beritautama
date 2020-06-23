@@ -187,13 +187,13 @@ footer {
 }
 
 @media (max-width: 1000px) {
-  .lesson-wrapper {
+  .lesson-wrapper { background-color: #000000;
     width: 50%;
   }
 }
 
 @media (max-width: 670px) {
-  .lesson-wrapper {
+  .lesson-wrapper { background-color: #000000;
     width: 100%;
   }
 }
