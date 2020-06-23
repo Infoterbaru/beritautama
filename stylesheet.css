@@ -108,7 +108,7 @@ header {
 
 .lesson-wrapper {
   height: 1000px;
-  padding-bottom: 80px;
+  padding-bottom: 200px;
   background-color: #000000;
   text-align: center;
 }
@@ -117,7 +117,7 @@ header {
   color: white;
   font-size: 18px;
   color: #F0FFF0;
-  background-color:#4B0082;
+  background-color:#6B8E23;
   padding: 20px 15px;
   display: inline-block;
   border-radius: 3px;
