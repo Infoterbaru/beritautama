@@ -108,8 +108,9 @@ header {
 
 .lesson-wrapper {
   height: 1000px;
-  padding-bottom: 200px;
+  padding-bottom: 1px;
   background-color: #000000;
+  background-size: cover;
   text-align: center;
 }
 
