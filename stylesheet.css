@@ -184,12 +184,4 @@ footer {
   padding-top: 30px;
 }
 
-@media (max-background-size: 1000px) {
-  .lesson-wrapper { background-size: cover 50%;
-  }
-}
 
-@media (background-size: 670px) {
-  .lesson-wrapper { background-size: cover 100%;
-  }
-}
